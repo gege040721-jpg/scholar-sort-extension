@@ -1,0 +1,49 @@
+#scholar-sort-btn {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 15px 0;
+  display: block;
+  position: relative;
+  z-index: 9999;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  transition: background-color 0.2s;
+}
+
+#scholar-sort-btn:hover {
+  background-color: #1557b0;
+}
+
+#scholar-sort-btn:active {
+  background-color: #104a9e;
+}
+
+#scholar-sort-btn.sorted {
+  background-color: #34a853;
+}
+
+#scholar-sort-btn.sorted:hover {
+  background-color: #2d8a47;
+}
+
+.citation-badge {
+  display: inline-block;
+  background-color: #34a853;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 12px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+#sort-btn-container {
+  padding: 10px 0;
+  margin-left: 180px;
+}

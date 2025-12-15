@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Google Scholar Citation Sorter",
+  "version": "1.0",
+  "description": "Automatically sort Google Scholar results by citation count",
+  "permissions": ["activeTab"],
+  "host_permissions": ["https://scholar.google.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://scholar.google.com/scholar*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
